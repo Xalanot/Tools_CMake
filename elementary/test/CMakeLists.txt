@@ -3,6 +3,7 @@ cmake_minimum_required(VERSION 3.14)
 find_package(Catch2)
 
 if(Catch2_FOUND)
+  message("Hooray we founc Catch2")
   add_executable(mathlib_test_catch2 catch2_test.cpp)
   
   target_link_libraries(mathlib_test_catch2
