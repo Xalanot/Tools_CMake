@@ -9,6 +9,6 @@ cmake --build build/ --target install
 ```
 
 # Build Project with Catch2
-`bash
-$ cmake -DCMAKE_PREFIX_PATH=~/Catch2/build/lib/cmake/Catch2/ -DBUILD_TESTS=ON ..
-`
+```bash
+cmake -DCMAKE_PREFIX_PATH=~/Catch2/build/lib/cmake/Catch2/ -DBUILD_TESTS=ON ..
+```
